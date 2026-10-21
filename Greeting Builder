@@ -1,8 +1,8 @@
-formatName(firstName, lastName)  {
+function formatName(firstName, lastName)  {
   return (firstName + ' ' + lastName);
 }
 
-getGreeting(timeOfDay)  {
+function getGreeting(timeOfDay)  {
   
   switch(timeOfDay)
   {
@@ -32,4 +32,3 @@ function createGreeting(firstName, lastName, timeOfDay)  {
   return message;
 }
 
-console.log(createGreeting(firstName, lastName, timeOfDay));
