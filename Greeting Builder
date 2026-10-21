@@ -3,10 +3,10 @@ function formatName(firstName, lastName)  {
 }
 
 function getGreeting(timeOfDay)  {
-  
+  let time;
   switch(timeOfDay)
   {
-    let time;
+   
     case 'morning':
       time = "Good morning";
       break;
