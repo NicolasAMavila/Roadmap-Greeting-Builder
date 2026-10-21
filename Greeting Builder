@@ -1,0 +1,35 @@
+formatName(firstName, lastName)  {
+  return (firstName + ' ' + lastName);
+}
+
+getGreeting(timeOfDay)  {
+  
+  switch(timeOfDay)
+  {
+    case 'morning':
+      let time = "Good morning";
+      break;
+    case 'afternoon':
+      let time = "Good afternoon";
+      break;
+    case 'evening':
+      let time = "Good evening";
+      break;
+  }
+  return time;
+}
+
+
+
+
+function createGreeting(firstName, lastName, timeOfDay)  {
+  let name;
+  name = formatName(firstName, lastName);
+  let greeting;
+  greeting = getGreeting(timeOfDay);
+  let message = `${greeting}, ${name}`;
+
+  return message;
+}
+
+console.log(createGreeting(firstName, lastName, timeOfDay));
