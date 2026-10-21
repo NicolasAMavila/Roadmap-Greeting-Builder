@@ -6,14 +6,15 @@ function getGreeting(timeOfDay)  {
   
   switch(timeOfDay)
   {
+    let time;
     case 'morning':
-      let time = "Good morning";
+      time = "Good morning";
       break;
     case 'afternoon':
-      let time = "Good afternoon";
+      time = "Good afternoon";
       break;
     case 'evening':
-      let time = "Good evening";
+      time = "Good evening";
       break;
   }
   return time;
